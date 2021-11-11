@@ -1,0 +1,29 @@
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:5,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:4000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:2
+        },
+        400:{
+            items:3
+        },
+        600:{
+            items:5
+        },
+        1000:{
+            items:6
+        }
+    }
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
