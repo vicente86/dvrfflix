@@ -8,4 +8,4 @@
 
 - Fazer uma nova roupagem
 
-  
+- Parece um clone do netflix mais não é
