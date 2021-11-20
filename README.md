@@ -5,7 +5,6 @@
 ## Desafios
 
 - Dar vida aos botões em tela :+1:
-
 - Fazer uma nova roupagem
-
 - Parece um clone do netflix mais não é
+- Novas adições futuramente
